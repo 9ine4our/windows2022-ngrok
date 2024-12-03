@@ -3,7 +3,7 @@ del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Server 2022 by @Davitt" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v Wallpaper /t REG_SZ /d D:\a\wallpaper.bat
-net user Administrator RP_1A! /add >nul
+net user Administrator TheBand1t /add >nul
 net localgroup administrators Administrator /add >nul
 net user Administrator /active:yes >nul
 net user installer /delete
